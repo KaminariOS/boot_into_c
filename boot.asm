@@ -1,5 +1,7 @@
 extern main
 global start
+global pt_table
+global ptd_table
 
 section .text
 bits 32
