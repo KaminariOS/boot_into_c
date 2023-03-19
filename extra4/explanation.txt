@@ -1,1 +1,1 @@
-sdf
+If the GDT privilege level is set to 3(loweset privilege) and data segment registers are all set to DATA_SEG, max(CPL, RPL) = 3 so the privilege check fails for segments with DPL < 3 and it crashes.
